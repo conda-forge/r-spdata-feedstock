@@ -1,13 +1,13 @@
 About r-spdata
 ==============
 
-Home: https://github.com/Nowosad/spData
+Home: https://nowosad.github.io/spData/
 
 Package license: CC0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Diverse spatial datasets for demonstrating, benchmarking and teaching spatial data analysis.  It includes R data of class sf (defined by the package 'sf'), Spatial ('sp'), and nb ('spdep'). Unlike other spatial data packages such as 'rnaturalearth' and 'maps',  it also contains data stored in a range of file formats including GeoJSON, ESRI Shapefile and GeoPackage.  Some of the datasets are designed to illustrate specific analysis techniques. cycle_hire() and cycle_hire_osm(), for example, is designed to illustrate point pattern analysis techniques.
+Summary: Diverse spatial datasets for demonstrating, benchmarking and teaching spatial data analysis. It includes R data of class sf (defined by the package 'sf'), Spatial ('sp'), and nb ('spdep'). Unlike other spatial data packages such as 'rnaturalearth' and 'maps', it also contains data stored in a range of file formats including GeoJSON, ESRI Shapefile and GeoPackage. Some of the datasets are designed to illustrate specific analysis techniques. cycle_hire() and cycle_hire_osm(), for example, is designed to illustrate point pattern analysis techniques.
 
 
 

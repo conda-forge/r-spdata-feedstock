@@ -3,7 +3,7 @@ About r-spdata
 
 Home: https://nowosad.github.io/spData/
 
-Package license: CC0
+Package license: CC0-1.0
 
 Feedstock license: BSD 3-Clause
 

@@ -1,4 +1,4 @@
-{% set version = "2.0.1" %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spData_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spData/spData_{{ version }}.tar.gz
-  sha256: c635a3e2e5123b4cdb2e6877b9b09e3d50169e1512a53b2ba2db7fbe63b990fc
+  sha256: 6e9c0a72f29021a84e9049b147c9e0186f14876a4a1663ad98bbb33440ee901f
 
 build:
   merge_build_host: true  # [win]

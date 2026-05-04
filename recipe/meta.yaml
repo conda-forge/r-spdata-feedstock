@@ -1,4 +1,4 @@
-{% set version = "2.3.4" %}
+{% set version = "2.3.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spData_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spData/spData_{{ version }}.tar.gz
-  sha256: 7094318e47e1f00c98712def5c8f42d8f0cdf48a97a0ec421aec8880ca78fa33
+  sha256: 034d35d93445c710a51b0cbd4def2d642791c51d6fc97a9bc721fe7dd3abb015
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,8 +40,8 @@ about:
   license_family: CC
   license_file:
     - LICENSE-CC0
-  summary: Diverse spatial datasets for demonstrating, benchmarking and teaching spatial data analysis. It includes R data of class sf (defined by the package 'sf'), Spatial ('sp'), and nb ('spdep'). Unlike other spatial data packages such as 'rnaturalearth' and 'maps', it also contains data stored in a range of file formats
-    including GeoJSON, ESRI Shapefile and GeoPackage. Some of the datasets are designed to illustrate specific analysis techniques. cycle_hire() and cycle_hire_osm(), for example, is designed to illustrate point pattern analysis techniques.
+  summary: Diverse spatial datasets for demonstrating, benchmarking and teaching spatial data analysis. It includes R data of class sf (defined by the package 'sf'), Spatial ('sp'), and nb ('spdep'). Unlike other spatial data packages such as 'rnaturalearth' and 'maps', it also contains data stored in a range of file 
+    formats including GeoJSON, ESRI Shapefile and GeoPackage. Some of the datasets are designed to illustrate specific analysis techniques. cycle_hire() and cycle_hire_osm(), for example, is designed to illustrate point pattern analysis techniques.
 
 extra:
   recipe-maintainers:
